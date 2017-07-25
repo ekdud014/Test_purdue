@@ -1,0 +1,16 @@
+﻿<Properties StartupItem="Assembly-CSharp.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Script/SmokeStart.cs">
+    <Files>
+      <File FileName="Assets/Script/ExtingPower.cs" Line="1" Column="1" />
+      <File FileName="Assets/Script/SmokeStart.cs" Line="13" Column="68" />
+      <File FileName="Assets/Script/FireAlarm.cs" Line="1" Column="1" />
+      <File FileName="Assets/github_Assets/Standard/Characters/FirstPersonCharacter/Scripts/HeadBob.cs" Line="1" Column="1" />
+      <File FileName="Assets/github_Assets/Scripts/Crosshair.cs" Line="1" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
