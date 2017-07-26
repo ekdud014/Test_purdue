@@ -46,8 +46,11 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Script\Camera\CameraFollow.cs" />
+     <Compile Include="Assets\Script\Camera\CameraRotate.cs" />
      <Compile Include="Assets\Script\ExtingPower.cs" />
      <Compile Include="Assets\Script\FireAlarm.cs" />
+     <Compile Include="Assets\Script\Player\PlayerMovement.cs" />
      <Compile Include="Assets\Script\SmokeStart.cs" />
      <Compile Include="Assets\github_Assets\Libs\SimpleJSON.cs" />
      <Compile Include="Assets\github_Assets\Libs\WebService.cs" />
