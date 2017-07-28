@@ -49,7 +49,7 @@ public class FighterState : MonoBehaviour
 
     public void FirePutOut()
     {
-        WebService.PostAction(this, "fires");
+        //WebService.PostAction(this, "fires");
         ++firesPutOut;
     }
 
@@ -77,20 +77,20 @@ public class FighterState : MonoBehaviour
         Smoke.transform.Rotate(Vector3.down, Input.GetAxis("Mouse Y"));
         Smoke.transform.Rotate(Vector3.left, Input.GetAxis("Mouse X") / 50.0f);
 
-        if (timerCountdown <= 0.0 && !LeavingBuilding.leftBuilding && firesPutOut < 6)
-        {
-            DoneText.GetComponent<Text>().text = "Scenario Failed";
-            DoneText.SetActive(true);
-
-            StartCoroutine(Transition(6));
-        }
-        else if (firesPutOut == 6 || LeavingBuilding.leftBuilding)
-        {
-            DoneText.GetComponent<Text>().text = "Scenario Passed";
-            DoneText.SetActive(true);
-
-            StartCoroutine(Transition(7));
-        }
+//        if (timerCountdown <= 0.0 && !LeavingBuilding.leftBuilding && firesPutOut < 6)
+//        {
+//            DoneText.GetComponent<Text>().text = "Scenario Failed";
+//            DoneText.SetActive(true);
+//
+//            StartCoroutine(Transition(6));
+//        }
+//        else if (firesPutOut == 6 || LeavingBuilding.leftBuilding)
+//        {
+//            DoneText.GetComponent<Text>().text = "Scenario Passed";
+//            DoneText.SetActive(true);
+//
+//            StartCoroutine(Transition(7));
+//        }
     }
 
     IEnumerator Transition(int scene)

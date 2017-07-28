@@ -4,25 +4,26 @@ using UnityEngine;
 
 public class SmokeStart : MonoBehaviour {
 
-	public float delayTime = 3;
+	public float delayTime = 2;
 	public GameObject obj;
-	float timer = 0.0f;
-	int waitingTime = 5;
+	int timer = 0;
+	int waitingTime = 100;
 	// Use this for initialization
 //	IEnumerator  Start () {
 //		yield return new WaitForSeconds (delayTime);
 //		Instantiate (obj, new Vector3 (-5, 0, -4), Quaternion.AngleAxis(-90, new Vector3(1,0,0)));
 //	}
-	IEnumerator Delay()
-	{
-		yield return new WaitForSeconds (delayTime);
-	}
+//	IEnumerator Delay()
+//	{
+//		yield return new WaitForSeconds (delayTime*Time.deltaTime);
+//	}
 	void Update()
 	{
 		timer += 1;
-		Delay ();
-		if (timer > waitingTime)
+
+		if (timer < waitingTime)
 		{
+			//Delay ();
 			obj.transform.localScale += new Vector3 (0.001f, 0.001f, 0.001f);
 		}
 		//UnityEngine.Debug.Log ("dd");

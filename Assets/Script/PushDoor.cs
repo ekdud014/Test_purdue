@@ -4,9 +4,16 @@ using UnityEngine;
 
 public class PushDoor : MonoBehaviour {
 
-	public float Speed = 10.0f;
+	public float Speed;
+	public int count = 0;
+	public int direction;	//-1 OR 1
+
 	void Update()
 	{
-		transform.Rotate (new Vector3(0, 0, Speed * Time.deltaTime));
+		if (count < 120) {
+			count++;
+			transform.Rotate (new Vector3 (0, 0, Speed * Time.deltaTime * direction));
+
+		}
 	}
 }

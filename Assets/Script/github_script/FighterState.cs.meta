@@ -1,14 +1,10 @@
 fileFormatVersion: 2
-guid: 2b5620f22c40aa340a4a488d5926d07c
-timeCreated: 1500958683
+guid: 9a858cbf53c924c36891b3ed89141e6b
+timeCreated: 1501262186
 licenseType: Free
 MonoImporter:
   serializedVersion: 2
-  defaultReferences:
-  - EquippedText: {instanceID: 0}
-  - TimeText: {instanceID: 0}
-  - DoneText: {instanceID: 0}
-  - Smoke: {fileID: 1219333994003558, guid: d309719c17e2e42e1ab5ec78e8d85adb, type: 2}
+  defaultReferences: []
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 

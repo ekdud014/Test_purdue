@@ -10,6 +10,9 @@ public class ExtingPower : MonoBehaviour {
 	private const float IncreaseStep = 2.0f;
 	public bool stop = false;
 	public bool fire = true;
+	public float hitForce = 300f;
+	RaycastHit hit;
+	public bool bdown = false;
 
 	// Use this for initialization
 	void Start()
@@ -21,18 +24,21 @@ public class ExtingPower : MonoBehaviour {
 	void Update () {
 		Exting.transform.Rotate(Vector3.down, Input.GetAxis("Mouse Y"));
 		Exting.transform.Rotate(Vector3.left, Input.GetAxis("Mouse X") / 50.0f);
-
+		var ray = Camera.main.ScreenPointToRay (Input.mousePosition);
 		if (Input.GetMouseButtonDown(0))
 		{
 			Exting.SetActive (true);
-
-			if(stop)
-				Exting.SetActive (false);
-			stop = !stop;
+			bdown = true;
+		
+		}
+		if(Input.GetMouseButtonUp(0))
+		{
+			Exting.SetActive (false);
+			bdown = false;
 		}
 		if (fire) {
-			var ray = Camera.main.ScreenPointToRay (Input.mousePosition);
-			RaycastHit hit;
+			
+
 			if (Physics.Raycast (ray, out hit) && Exting.activeSelf) {
 				if (hit.distance <= 10.0f) {
 					//UnityEngine.Debug.Log ("dd");
@@ -44,6 +50,10 @@ public class ExtingPower : MonoBehaviour {
 					}
 				}
 			}
+		}
+		if(Physics.Raycast (ray, out hit)&&hit.rigidbody != null && bdown)  //만약 고체라면
+		{
+			hit.rigidbody.AddForce (-hit.normal * hitForce);  //힘을 받은 만큼 움직이게 한다. -방향으로
 		}
 	}
 }
