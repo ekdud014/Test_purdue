@@ -1,0 +1,183 @@
+fileFormatVersion: 2
+guid: 77207f91650e77c46ba40da2b31c65d6
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Sta_LowF_A_spotB
+    100004: Sta_LowF_A_spotC
+    100006: Sta_LowF_A_spotF
+    100008: Sta_LowF_B_baseboards
+    100010: Sta_LowF_B_beam_add
+    100012: Sta_LowF_B_Root_stairs
+    100014: Sta_LowF_B_Root_StairsCeiling
+    100016: Sta_LowF_B_Root_wallB
+    100018: Sta_LowF_B_Root_wallF
+    100020: Sta_LowF_B_Root_window
+    100022: Sta_LowF_B_spot_add
+    100024: Sta_LowF_B_stairs
+    100026: Sta_LowF_B_wallB
+    100028: Sta_LowF_B_wallF
+    100030: Sta_LowF_B_window
+    100032: Sta_ToRoofTop_Ceiling_spot_add
+    100034: Sta_ToRoofTop_StairsCeiling
+    100036: Sta_LowF_B_Ceiling_spot_add
+    100038: Sta_LowF_B_spotB
+    100040: Sta_LowF_B_spotC
+    100042: Sta_LowF_B_spotF
+    100044: Sta_LowF_B_StairsCeiling
+    100046: Sta_LowF_AfireHydrant
+    100048: Sta_LowF_AfireHydrant_add
+    400000: //RootNode
+    400002: Sta_LowF_A_spotB
+    400004: Sta_LowF_A_spotC
+    400006: Sta_LowF_A_spotF
+    400008: Sta_LowF_B_baseboards
+    400010: Sta_LowF_B_beam_add
+    400012: Sta_LowF_B_Root_stairs
+    400014: Sta_LowF_B_Root_StairsCeiling
+    400016: Sta_LowF_B_Root_wallB
+    400018: Sta_LowF_B_Root_wallF
+    400020: Sta_LowF_B_Root_window
+    400022: Sta_LowF_B_spot_add
+    400024: Sta_LowF_B_stairs
+    400026: Sta_LowF_B_wallB
+    400028: Sta_LowF_B_wallF
+    400030: Sta_LowF_B_window
+    400032: Sta_ToRoofTop_Ceiling_spot_add
+    400034: Sta_ToRoofTop_StairsCeiling
+    400036: Sta_LowF_B_Ceiling_spot_add
+    400038: Sta_LowF_B_spotB
+    400040: Sta_LowF_B_spotC
+    400042: Sta_LowF_B_spotF
+    400044: Sta_LowF_B_StairsCeiling
+    400046: Sta_LowF_AfireHydrant
+    400048: Sta_LowF_AfireHydrant_add
+    2300000: Sta_LowF_A_spotB
+    2300002: Sta_LowF_A_spotC
+    2300004: Sta_LowF_A_spotF
+    2300006: Sta_LowF_B_baseboards
+    2300008: Sta_LowF_B_beam_add
+    2300010: Sta_LowF_B_spot_add
+    2300012: Sta_LowF_B_stairs
+    2300014: Sta_LowF_B_wallB
+    2300016: Sta_LowF_B_wallF
+    2300018: Sta_LowF_B_window
+    2300020: Sta_ToRoofTop_Ceiling_spot_add
+    2300022: Sta_ToRoofTop_StairsCeiling
+    2300024: Sta_LowF_B_Ceiling_spot_add
+    2300026: Sta_LowF_B_spotB
+    2300028: Sta_LowF_B_spotC
+    2300030: Sta_LowF_B_spotF
+    2300032: Sta_LowF_B_StairsCeiling
+    2300034: Sta_LowF_AfireHydrant
+    2300036: Sta_LowF_AfireHydrant_add
+    3300000: Sta_LowF_A_spotB
+    3300002: Sta_LowF_A_spotC
+    3300004: Sta_LowF_A_spotF
+    3300006: Sta_LowF_B_baseboards
+    3300008: Sta_LowF_B_beam_add
+    3300010: Sta_LowF_B_spot_add
+    3300012: Sta_LowF_B_stairs
+    3300014: Sta_LowF_B_wallB
+    3300016: Sta_LowF_B_wallF
+    3300018: Sta_LowF_B_window
+    3300020: Sta_ToRoofTop_Ceiling_spot_add
+    3300022: Sta_ToRoofTop_StairsCeiling
+    3300024: Sta_LowF_B_Ceiling_spot_add
+    3300026: Sta_LowF_B_spotB
+    3300028: Sta_LowF_B_spotC
+    3300030: Sta_LowF_B_spotF
+    3300032: Sta_LowF_B_StairsCeiling
+    3300034: Sta_LowF_AfireHydrant
+    3300036: Sta_LowF_AfireHydrant_add
+    4300000: Sta_LowF_B_stairs
+    4300002: Sta_LowF_A_spotC
+    4300004: Sta_LowF_A_spotF
+    4300006: Sta_LowF_B_spot_add
+    4300008: Sta_LowF_B_wallF
+    4300010: Sta_LowF_B_wallB
+    4300012: Sta_LowF_A_spotB
+    4300014: Sta_LowF_B_beam_add
+    4300016: Sta_LowF_B_baseboards
+    4300018: Sta_LowF_B_window
+    4300020: Sta_ToRoofTop_StairsCeiling
+    4300022: Sta_ToRoofTop_Ceiling_spot_add
+    4300024: Sta_LowF_B_spotC
+    4300026: Sta_LowF_B_spotF
+    4300028: Sta_LowF_B_spotB
+    4300030: Sta_LowF_B_StairsCeiling
+    4300032: Sta_LowF_B_Ceiling_spot_add
+    4300034: Sta_LowF_AfireHydrant_add
+    4300036: Sta_LowF_AfireHydrant
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 1
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 0.01
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

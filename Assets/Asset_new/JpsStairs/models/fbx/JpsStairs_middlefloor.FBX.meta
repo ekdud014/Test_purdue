@@ -1,0 +1,146 @@
+fileFormatVersion: 2
+guid: d491874fe690ab64882a007fddb7a8c3
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Sta_floor_MiddleF_spot_add
+    100004: Sta_MiddleF_baseboards
+    100006: Sta_MiddleF_beam_add
+    100008: Sta_middleF_Root_stairs
+    100010: Sta_MiddleF_Root_wallB
+    100012: Sta_middleF_Root_wallF
+    100014: Sta_MiddleF_Root_window
+    100016: Sta_middleF_spotB
+    100018: Sta_middleF_spotC
+    100020: Sta_middleF_spotF
+    100022: Sta_middleF_stairs
+    100024: Sta_middleF_wallF
+    100026: Sta_middleF_wallF 1
+    100028: Sta_MiddleF_window
+    100030: Sta_MiddleF_spot_add
+    100032: Sta_middleF_wallB
+    400000: //RootNode
+    400002: Sta_floor_MiddleF_spot_add
+    400004: Sta_MiddleF_baseboards
+    400006: Sta_MiddleF_beam_add
+    400008: Sta_middleF_Root_stairs
+    400010: Sta_MiddleF_Root_wallB
+    400012: Sta_middleF_Root_wallF
+    400014: Sta_MiddleF_Root_window
+    400016: Sta_middleF_spotB
+    400018: Sta_middleF_spotC
+    400020: Sta_middleF_spotF
+    400022: Sta_middleF_stairs
+    400024: Sta_middleF_wallF
+    400026: Sta_middleF_wallF 1
+    400028: Sta_MiddleF_window
+    400030: Sta_MiddleF_spot_add
+    400032: Sta_middleF_wallB
+    2300000: Sta_floor_MiddleF_spot_add
+    2300002: Sta_MiddleF_baseboards
+    2300004: Sta_MiddleF_beam_add
+    2300006: Sta_middleF_spotB
+    2300008: Sta_middleF_spotC
+    2300010: Sta_middleF_spotF
+    2300012: Sta_middleF_stairs
+    2300014: Sta_middleF_wallF
+    2300016: Sta_middleF_wallF 1
+    2300018: Sta_MiddleF_window
+    2300020: Sta_MiddleF_spot_add
+    2300022: Sta_middleF_wallB
+    3300000: Sta_floor_MiddleF_spot_add
+    3300002: Sta_MiddleF_baseboards
+    3300004: Sta_MiddleF_beam_add
+    3300006: Sta_middleF_spotB
+    3300008: Sta_middleF_spotC
+    3300010: Sta_middleF_spotF
+    3300012: Sta_middleF_stairs
+    3300014: Sta_middleF_wallF
+    3300016: Sta_middleF_wallF 1
+    3300018: Sta_MiddleF_window
+    3300020: Sta_MiddleF_spot_add
+    3300022: Sta_middleF_wallB
+    4300000: Sta_middleF_stairs
+    4300002: Sta_middleF_spotF
+    4300004: Sta_middleF_spotC
+    4300006: Sta_floor_MiddleF_spot_add
+    4300008: Sta_middleF_wallF
+    4300010: Sta_MiddleF_baseboards
+    4300012: Sta_MiddleF_window
+    4300014: Sta_MiddleF_beam_add
+    4300016: Sta_middleF_wallF
+    4300018: Sta_middleF_spotB
+    4300020: Sta_MiddleF_spot_add
+    4300022: Sta_middleF_wallB
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 1
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 0.01
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,168 @@
+fileFormatVersion: 2
+guid: b57650ba30178aa47b9618ea0e6ad6a8
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Sta_Way_baseboardsR_nig
+    100004: Sta_Way_ceiling board_nig
+    100006: Sta_Way_ceiling_spot_add_nig
+    100008: Sta_Way_doorL_exitA_nig
+    100010: Sta_Way_doorL_exitB_nig
+    100012: Sta_Way_doorR_exitA_nig
+    100014: Sta_Way_doorR_exitB_nig
+    100016: Sta_Way_exitA_add_nig
+    100018: Sta_Way_exitA_nig
+    100020: Sta_Way_exitB_add_nig
+    100022: Sta_Way_exitB_nig
+    100024: Sta_Way_floor_nig
+    100026: Sta_Way_Root_ceiling_nig
+    100028: Sta_Way_Root_exitA_nig
+    100030: Sta_Way_Root_exitB_nig
+    100032: Sta_Way_Root_floor_nig
+    100034: Sta_Way_Root_wallR_nig
+    100036: Sta_Way_wall_exitA_nig
+    100038: Sta_Way_wall_exitB_nig
+    100040: Sta_Way_wallR_nig
+    100042: Sta_Way_win_add_nig
+    400000: //RootNode
+    400002: Sta_Way_baseboardsR_nig
+    400004: Sta_Way_ceiling board_nig
+    400006: Sta_Way_ceiling_spot_add_nig
+    400008: Sta_Way_doorL_exitA_nig
+    400010: Sta_Way_doorL_exitB_nig
+    400012: Sta_Way_doorR_exitA_nig
+    400014: Sta_Way_doorR_exitB_nig
+    400016: Sta_Way_exitA_add_nig
+    400018: Sta_Way_exitA_nig
+    400020: Sta_Way_exitB_add_nig
+    400022: Sta_Way_exitB_nig
+    400024: Sta_Way_floor_nig
+    400026: Sta_Way_Root_ceiling_nig
+    400028: Sta_Way_Root_exitA_nig
+    400030: Sta_Way_Root_exitB_nig
+    400032: Sta_Way_Root_floor_nig
+    400034: Sta_Way_Root_wallR_nig
+    400036: Sta_Way_wall_exitA_nig
+    400038: Sta_Way_wall_exitB_nig
+    400040: Sta_Way_wallR_nig
+    400042: Sta_Way_win_add_nig
+    2300000: Sta_Way_baseboardsR_nig
+    2300002: Sta_Way_ceiling board_nig
+    2300004: Sta_Way_ceiling_spot_add_nig
+    2300006: Sta_Way_doorL_exitA_nig
+    2300008: Sta_Way_doorL_exitB_nig
+    2300010: Sta_Way_doorR_exitA_nig
+    2300012: Sta_Way_doorR_exitB_nig
+    2300014: Sta_Way_exitA_add_nig
+    2300016: Sta_Way_exitA_nig
+    2300018: Sta_Way_exitB_add_nig
+    2300020: Sta_Way_exitB_nig
+    2300022: Sta_Way_floor_nig
+    2300024: Sta_Way_wall_exitA_nig
+    2300026: Sta_Way_wall_exitB_nig
+    2300028: Sta_Way_wallR_nig
+    2300030: Sta_Way_win_add_nig
+    3300000: Sta_Way_baseboardsR_nig
+    3300002: Sta_Way_ceiling board_nig
+    3300004: Sta_Way_ceiling_spot_add_nig
+    3300006: Sta_Way_doorL_exitA_nig
+    3300008: Sta_Way_doorL_exitB_nig
+    3300010: Sta_Way_doorR_exitA_nig
+    3300012: Sta_Way_doorR_exitB_nig
+    3300014: Sta_Way_exitA_add_nig
+    3300016: Sta_Way_exitA_nig
+    3300018: Sta_Way_exitB_add_nig
+    3300020: Sta_Way_exitB_nig
+    3300022: Sta_Way_floor_nig
+    3300024: Sta_Way_wall_exitA_nig
+    3300026: Sta_Way_wall_exitB_nig
+    3300028: Sta_Way_wallR_nig
+    3300030: Sta_Way_win_add_nig
+    4300000: Sta_Way_floor_nig
+    4300002: Sta_Way_wallR_nig
+    4300004: Sta_Way_baseboardsR_nig
+    4300006: Sta_Way_ceiling_spot_add_nig
+    4300008: Sta_Way_ceiling board_nig
+    4300010: Sta_Way_wall_exitA_nig
+    4300012: Sta_Way_doorL_exitA_nig
+    4300014: Sta_Way_doorR_exitA_nig
+    4300016: Sta_Way_exitA_add_nig
+    4300018: Sta_Way_exitA_nig
+    4300020: Sta_Way_exitB_nig
+    4300022: Sta_Way_exitB_add_nig
+    4300024: Sta_Way_wall_exitB_nig
+    4300026: Sta_Way_doorR_exitB_nig
+    4300028: Sta_Way_doorL_exitB_nig
+    4300030: Sta_Way_win_add_nig
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 1
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 0.01
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
