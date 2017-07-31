@@ -30,7 +30,7 @@ public class CameraFollow: MonoBehaviour {
 		Quaternion rot = Quaternion.Euler(-currXAngle, currYAngle, 0);
 
 		// 카메라의 위치를 타겟이 회전한 각도만큼 회전한 이후, dist만큼 뒤쪽으로 배치하고 height 만큼 위로 올림.
-		tr.position = target.position - (rot * Vector3.forward * dist)/20;
+		tr.position = target.position - (rot * Vector3.forward * dist)*10;
 
 		// 카메라가 타겟 게임 오브젝트를 바라보게 설정.
 		tr.LookAt(target);

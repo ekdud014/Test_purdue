@@ -72,7 +72,7 @@ namespace UnityStandardAssets.Characters.FirstPerson
                 InternalLockUpdate();
         }
 
-        private void InternalLockUpdate()
+        private void InternalLockUpdate()	//마우스 보이게하려면 아래 주
         {
             if(Input.GetKeyUp(KeyCode.Escape))
             {

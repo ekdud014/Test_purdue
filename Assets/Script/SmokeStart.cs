@@ -8,6 +8,7 @@ public class SmokeStart : MonoBehaviour {
 	public GameObject obj;
 	int timer = 0;
 	int waitingTime = 100;
+
 	// Use this for initialization
 //	IEnumerator  Start () {
 //		yield return new WaitForSeconds (delayTime);
@@ -17,16 +18,17 @@ public class SmokeStart : MonoBehaviour {
 //	{
 //		yield return new WaitForSeconds (delayTime*Time.deltaTime);
 //	}
+
 	void Update()
 	{
-		timer += 1;
-
-		if (timer < waitingTime)
-		{
+		
+		if (timer < waitingTime) {
+			timer += 1;
 			//Delay ();
 			obj.transform.localScale += new Vector3 (0.001f, 0.001f, 0.001f);
+
 		}
-		//UnityEngine.Debug.Log ("dd");
+
 		//obj.transform.localScale += new Vector3 (2, 2, 2);
 	}
 }

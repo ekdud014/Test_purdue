@@ -49,6 +49,7 @@
      <Compile Include="Assets\Script\Camera\CameraFollow.cs" />
      <Compile Include="Assets\Script\Camera\CameraRotate.cs" />
      <Compile Include="Assets\Script\Crosshair.cs" />
+     <Compile Include="Assets\Script\ElevatorDoor.cs" />
      <Compile Include="Assets\Script\ExtingHold.cs" />
      <Compile Include="Assets\Script\ExtingPower.cs" />
      <Compile Include="Assets\Script\ExtingSeal.cs" />
