@@ -46,8 +46,25 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Asset_new\Nick\Aerowand\Scripts\Device.cs" />
+     <Compile Include="Assets\Asset_new\Nick\Aerowand\Scripts\Internal\AerowandData.cs" />
+     <Compile Include="Assets\Asset_new\Nick\Aerowand\Scripts\Internal\Connector.cs" />
+     <Compile Include="Assets\Asset_new\Nick\Aerowand\Scripts\Internal\DeviceDriver.cs" />
+     <Compile Include="Assets\Asset_new\Nick\Aerowand\Scripts\Internal\Script Order\ScriptOrder.cs" />
+     <Compile Include="Assets\Asset_new\Nick\Aerowand\Scripts\Internal\System Interfaces\AbstractDevice.cs" />
+     <Compile Include="Assets\Asset_new\Nick\Aerowand\Scripts\Internal\System Interfaces\AndroidWrapper.cs" />
+     <Compile Include="Assets\Asset_new\Nick\Aerowand\Scripts\Internal\System Interfaces\WindowsWrapper.cs" />
+     <Compile Include="Assets\Asset_new\Nick\Aerowand\Scripts\MonoBehaviours\ReadAerowandOffset.cs" />
+     <Compile Include="Assets\Asset_new\Nick\Aerowand\Scripts\MonoBehaviours\ReadAerowandToGuiText.cs" />
+     <Compile Include="Assets\Asset_new\Nick\Aerowand\Scripts\MonoBehaviours\ReferencedTransform.cs" />
+     <Compile Include="Assets\Asset_new\Nick\Hand\GripControl.cs" />
      <Compile Include="Assets\Script\Camera\CameraFollow.cs" />
      <Compile Include="Assets\Script\Camera\CameraRotate.cs" />
+     <Compile Include="Assets\Script\Click\ClickBottle.cs" />
+     <Compile Include="Assets\Script\Click\ClickFireExtinguisher.cs" />
+     <Compile Include="Assets\Script\Click\ClickHorn.cs" />
+     <Compile Include="Assets\Script\Click\ClickPin.cs" />
+     <Compile Include="Assets\Script\Click\ClickTowel.cs" />
      <Compile Include="Assets\Script\Crosshair.cs" />
      <Compile Include="Assets\Script\ElevatorDoor.cs" />
      <Compile Include="Assets\Script\ExtingHold.cs" />
@@ -59,6 +76,8 @@
      <Compile Include="Assets\Script\Player\PlayerMovement.cs" />
      <Compile Include="Assets\Script\PushDoor.cs" />
      <Compile Include="Assets\Script\RigidbodyFirstPersonController.cs" />
+     <Compile Include="Assets\Script\SceneChange\GameStart.cs" />
+     <Compile Include="Assets\Script\SceneChange\Tutorial1.cs" />
      <Compile Include="Assets\Script\SlidingDoor.cs" />
      <Compile Include="Assets\Script\SmokeStart.cs" />
      <Compile Include="Assets\Script\github_script\FighterState.cs" />
@@ -102,9 +121,11 @@
      <None Include="Assets\Large_Scale_Smoke\Shaders\AlphaSelfIllum_NoFog_Sky.shader" />
      <None Include="Assets\JapaneseClassroomModel\Shader\VertexColorShader.shader" />
      <None Include="Assets\Asset_new\Large_Scale_Smoke\Shaders\AlphaSelfIllum_NoFog_Sky.shader" />
+     <None Include="Assets\Asset_new\Hand painted bottle\readme.txt" />
      <None Include="Assets\Asset_new\JapaneseClassroomModel\Shader\VertexColorShader.shader" />
      <None Include="Assets\Script\github_script\Standard\CrossPlatformInput\CrossPlatformInputGuidelines.txt" />
      <None Include="Assets\Asset_new\JpsStairs\Shader\VertexColorShader.shader" />
+     <None Include="Assets\Asset_new\Nick\Aerowand\Examples\Net\Shader\Standard (Two Sided).shader" />
      <None Include="Assets\Asset_new\JpsHallWayModel\Shader\VertexColorShader.shader" />
      <None Include="Assets\Asset_new\Large_Scale_Smoke\Large_Scale_Smoke - Documentation.txt" />
  <Reference Include="UnityEngine.Analytics">
